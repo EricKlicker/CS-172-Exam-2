@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6DE047811DD5143D007B7B39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DE047801DD5143D007B7B39 /* main.cpp */; };
+		6DE0478B1DD52EFC007B7B39 /* Citizen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DE047891DD52EFC007B7B39 /* Citizen.cpp */; };
+		6DE0478E1DD52F31007B7B39 /* City.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0478C1DD52F31007B7B39 /* City.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		6DE0477D1DD5143D007B7B39 /* Comp. Sci. EXAM 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Comp. Sci. EXAM 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE047801DD5143D007B7B39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DE047891DD52EFC007B7B39 /* Citizen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Citizen.cpp; sourceTree = "<group>"; };
+		6DE0478A1DD52EFC007B7B39 /* Citizen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Citizen.hpp; sourceTree = "<group>"; };
+		6DE0478C1DD52F31007B7B39 /* City.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = City.cpp; sourceTree = "<group>"; };
+		6DE0478D1DD52F31007B7B39 /* City.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = City.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				6DE047801DD5143D007B7B39 /* main.cpp */,
+				6DE0478A1DD52EFC007B7B39 /* Citizen.hpp */,
+				6DE047891DD52EFC007B7B39 /* Citizen.cpp */,
+				6DE0478D1DD52F31007B7B39 /* City.hpp */,
+				6DE0478C1DD52F31007B7B39 /* City.cpp */,
 			);
 			path = "Comp. Sci. EXAM 2";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE0478E1DD52F31007B7B39 /* City.cpp in Sources */,
+				6DE0478B1DD52EFC007B7B39 /* Citizen.cpp in Sources */,
 				6DE047811DD5143D007B7B39 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
