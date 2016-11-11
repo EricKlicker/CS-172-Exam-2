@@ -13,6 +13,8 @@
 #include "Citizen.hpp"
 #include <string>
 #include <vector>
+#include <fstream>
+#include <iostream>
 using namespace std;
 
 
@@ -59,7 +61,12 @@ public:
     vector<Citizen*> getCitizensForFavoriteColor(string color);
     
 private:
-    string cityName;
+    string name;
+    int numberOfCitizens;
+   
+    
+   
+    
     
     
     

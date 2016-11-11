@@ -10,31 +10,36 @@
 
 Citizen::Citizen(int id,string firstName, string lastName, string color)
 {
+    //change variables to reflect new values
+    id = ID;
+    lName = LNAME;
+    
     
     
 }
+//create functions to return values and strings
 string Citizen::getFirstName()
 {
     
-    return 0;
+    return fName;
 }
 string Citizen::getLastName()
 {
-    
-    return 0;
+
+    return lName;
 }
 int Citizen::getId()
 {
     
-    return 0;
+    return id;
 }
 string Citizen::getFavoriteColor()
 {
     
-    return 0;
+    return color;
 }
 void Citizen::setFavoriteColor(string color)
 {
-    
+    color = newColor;
     
 }

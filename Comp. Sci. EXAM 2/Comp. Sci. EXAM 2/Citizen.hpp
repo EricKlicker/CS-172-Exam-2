@@ -13,6 +13,7 @@
 #include <string>
 using namespace std;
 
+//I need to create functions with pointers that allows me to add citizens and read in files based on the city they are from. Each city will have their own text file. From there a citizen can be stored and compared to other citizens based on color. When a citizen is added to a city they need to be deleted because they can't be in 2 different cities thus using a new and delete to ensure that if a citizen is created they are then deleted.
 
 class Citizen
 {
@@ -45,6 +46,11 @@ public:
     
     
 private:
+    int id;
+    string fName;
+    string lName;
+    string color;
+    
     
 };
 

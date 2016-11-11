@@ -9,7 +9,6 @@
 // I affirm that all code given below was written by me <Eric Klicker>, and that any help I received adhered to the rules stated for this exam
 
 #include <iostream>
-#include
 #include <iostream>
 #include "Citizen.hpp"
 #include "City.hpp"
